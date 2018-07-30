@@ -6,7 +6,7 @@ const format = require('util').format
  * Prefix.
  */
 
-const prefix = '   plop-it'
+const prefix = '   plod'
 const sep = chalk.gray('·')
 
 /**

@@ -1,25 +1,25 @@
 {
-  "name": "plop-it",
+  "name": "plod",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple CLI for execute online plop template",
   "bin": {
-    "plop-it": "bin/plop-it"
+    "plod": "bin/plod.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "scripts": {},
+  "keywords": ["plop", "node-plop", "cli", "download", "plod"],
+  "author": "ablipan@163.com",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ablipan/plod.git"
+  },
   "dependencies": {
     "chalk": "^2.4.1",
     "commander": "^2.16.0",
     "download-git-repo": "^1.0.2",
-    "execa": "^0.10.0",
-    "inquirer": "^6.0.0",
     "node-plop": "^0.15.0",
     "ora": "^3.0.0",
-    "plop": "^2.0.0",
+    "rimraf": "^2.6.2",
     "tildify": "^1.2.0",
     "user-home": "^2.0.0"
   }

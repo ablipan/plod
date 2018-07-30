@@ -4,3 +4,4 @@ node_modules/
 npm-debug.log.*
 !.gitkeep
 .idea
+package-lock.json
