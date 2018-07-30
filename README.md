@@ -21,3 +21,6 @@ $ plod ablipan/plod-example
 ```
 
 The above command pulls the template from ablipan/plod-example, and then execute it with [plop](https://plopjs.com/)
+
+### License
+[MIT](https://opensource.org/licenses/MIT)
