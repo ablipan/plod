@@ -1,6 +1,6 @@
-# A simple CLI for execute online [plop](https://plopjs.com/) template
+# A simple CLI for run online [plop](https://plopjs.com/) template
 
-Download a plop template from a git repo and execute it.
+Download and run plop template from git repo.
 
 ### Installation
 
@@ -20,7 +20,7 @@ Example:
 $ plod ablipan/plod-example
 ```
 
-The above command pulls the template from ablipan/plod-example, and then execute it with [plop](https://plopjs.com/)
+The above command pulls the template from `ablipan/plod-example`, and then run it with [plop](https://plopjs.com/)
 
 ### License
 [MIT](https://opensource.org/licenses/MIT)
