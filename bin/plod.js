@@ -73,7 +73,7 @@ run()
 
 /**
  * Generate the project with node-plop(https://github.com/amwmedia/node-plop)
- * @param {FUnction} cb
+ * @param {Function} cb
  */
 function generate(path, cb) {
   const plop = nodePlop(`${path}/plopfile.js`)
