@@ -78,15 +78,11 @@ run()
 function generate(path, cb) {
   const plop = nodePlop(`${path}/plopfile.js`)
   const defaultGenerator = plop.getGenerator(generator)
-  defaultGenerator.runPrompts().then(function(result) {
-    defaultGenerator.runActions(result).then(function(results) {
+  defaultGenerator.runPrompts().then(result => {
+    defaultGenerator.runActions(result).then(() => {
       cb()
-    }, function(err) {
-      cb(err)
-    })
-  }, function(err) {
-    cb(err)
-  })
+    }, err => cb(err))
+  }, err => cb(err))
 }
 
 /**
