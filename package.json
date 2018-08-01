@@ -1,12 +1,12 @@
 {
   "name": "plod",
-  "version": "1.0.0",
-  "description": "A simple CLI for execute online plop template",
+  "version": "1.0.1",
+  "description": "Run online [plop](https://plopjs.com/) template",
   "bin": {
     "plod": "bin/plod.js"
   },
   "scripts": {},
-  "keywords": ["plop", "node-plop", "cli", "download", "plod"],
+  "keywords": ["plop", "generator", "node-plop", "cli"],
   "author": "ablipan@163.com",
   "license": "MIT",
   "repository": {

@@ -1,6 +1,4 @@
-# A simple CLI for run online [plop](https://plopjs.com/) template
-
-Download and run plop template from git repo.
+# Run online [plop](https://plopjs.com/) template
 
 ### Installation
 
@@ -13,6 +11,8 @@ $ npm install -g plod
 ```bash
 $ plod <project-name>
 ```
+
+<project-name> can be local path or [git repo](https://github.com/flipxfx/download-git-repo).
 
 Example:
 
