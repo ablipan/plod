@@ -12,7 +12,7 @@ $ npm install -g plod
 $ plod <project-name>
 ```
 
-<project-name> can be local path or [git repo](https://github.com/flipxfx/download-git-repo).
+\<project-name\> can be local path or [git repo](https://github.com/flipxfx/download-git-repo).
 
 Example:
 
