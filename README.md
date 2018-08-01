@@ -1,4 +1,4 @@
-# Run online [plop](https://plopjs.com/) template
+# A simple CLI to run online [plop](https://plopjs.com/) template.
 
 ### Installation
 

@@ -1,7 +1,7 @@
 {
   "name": "plod",
-  "version": "1.0.1",
-  "description": "Run online [plop](https://plopjs.com/) template",
+  "version": "1.0.2",
+  "description": "A simple CLI to run online plop template.",
   "bin": {
     "plod": "bin/plod.js"
   },
