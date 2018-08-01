@@ -12,7 +12,7 @@ $ npm install -g plod
 $ plod <project-name>
 ```
 
-\<project-name\> can be local path or [git repo](https://github.com/flipxfx/download-git-repo).
+`<project-name>` can be a local path or [a git repo](https://github.com/flipxfx/download-git-repo).
 
 Example:
 
@@ -20,7 +20,7 @@ Example:
 $ plod ablipan/plod-example
 ```
 
-The above command pulls the template from `ablipan/plod-example`, and then run it with [plop](https://plopjs.com/)
+The above command pulls the template from `ablipan/plod-example`, and then run it with [node-plop](https://github.com/amwmedia/node-plop)
 
 ### License
 [MIT](https://opensource.org/licenses/MIT)
